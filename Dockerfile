@@ -11,8 +11,8 @@ RUN apt-get update -y && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     mkdir /usr/local/tree && \
     git clone https://github.com/inkton/nest.git /usr/local/tree/nest && \
-    chmod +x /etc/start-app.sh &&
-    chmod +x /usr/sbin/load-db &&
+    chmod +x /etc/start-app.sh && \
+    chmod +x /usr/sbin/load-db && \
     chmod +x /usr/sbin/save-db
 
 WORKDIR "/var/app"
