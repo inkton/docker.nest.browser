@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NEST_DB_VENDOR=mariadb \
-NEST_APP_DB_DATA_PATH=/var/app/source/shared/Database/ddl.sql  \
-NEST_APP_DB_SCHEMA_PATH=/var/app/source/shared/Database/dml.sql  \
+NEST_APP_DB_DATA_PATH=/var/app/source/shared/Database/dml.sql  \
+NEST_APP_DB_SCHEMA_PATH=/var/app/source/shared/Database/ddl.sql  \
 NEST_APP_REGISTRY_PATH=/var/app/app.json  \
 NEST_OPERATION=restore_db /var/app/app.nest
