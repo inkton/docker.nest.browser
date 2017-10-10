@@ -1,2 +1,2 @@
-# nest.browser
-The nest browser
+# docker.nest.browser
+The docker container where clients use to browse their online content.
