@@ -14,7 +14,6 @@ RUN apt-get update -y && \
     chmod +x /etc/start-app.sh && \
     chmod +x /usr/sbin/load-db && \
     chmod +x /usr/sbin/save-db && \
-    sed -i 's/Prompt=.*/Prompt=never/' /etc/update-manager/release-upgrades  && \
     cd /usr/sbin/ && wget https://raw.githubusercontent.com/rabbitmq/rabbitmq-management/v3.7.0/bin/rabbitmqadmin && \
     chmod +x /usr/sbin/rabbitmqadmin
     
